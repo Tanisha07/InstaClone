@@ -36,10 +36,12 @@
 
     <ImageView
             android:id="@+id/imageView"
-            android:layout_width="364dp"
-            android:layout_height="276dp"
+            android:layout_width="318dp"
+            android:layout_height="293dp"
             android:layout_marginTop="214dp"
             android:layout_marginBottom="210dp"
+            android:onClick="addImg"
+            android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.489"
